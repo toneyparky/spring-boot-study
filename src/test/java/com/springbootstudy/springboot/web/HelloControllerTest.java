@@ -26,7 +26,6 @@ public class HelloControllerTest {
 		mvc.perform(get("/hello")) // MockMvc를 통해 get요청을 해당 주소로 보낸다. 체이닝이 지원되어 아래에 이을 수 있다.
 				.andExpect(status().isOk()) // 상태를 검증한다. 헤더를 검증한다.
 				.andExpect(content().string(hello)); // 본문을 검증한다. 내용을 검증한다.
-
 	}
 
 	@Test

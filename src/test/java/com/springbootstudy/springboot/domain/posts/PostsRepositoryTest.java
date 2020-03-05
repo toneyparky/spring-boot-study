@@ -1,6 +1,5 @@
 package com.springbootstudy.springboot.domain.posts;
 
-import org.apache.tomcat.jni.Local;
 import org.junit.After;
 import org.junit.Test;
 import org.junit.runner.RunWith;

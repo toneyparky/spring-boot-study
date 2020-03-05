@@ -78,7 +78,6 @@ public class PostsApiControllerTest {
 				.build());
 
 		Long updateId = savedPosts.getId();
-		System.out.println(updateId + "!!!!!!!!!!!");
 		String expectedTitle = "title2";
 		String expectedContent = "content2";
 
